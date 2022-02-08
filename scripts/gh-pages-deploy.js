@@ -1,7 +1,7 @@
 // script from: https://medium.com/swlh/auto-deploy-vue-js-to-github-pages-using-actions-723a2206e4d3
 /* eslint-disable no-console */
-const execa = require("execa");
-const fs = require("fs");
+import {execa} from 'execa';
+import fs from 'fs';
 (async () => {
   try {
     await execa("git", ["checkout", "--orphan", "gh-pages"]);

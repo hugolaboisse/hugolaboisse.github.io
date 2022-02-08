@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "hugo-github-profile",
   "version": "0.0.0",
   "scripts": {
