@@ -1,3 +1,5 @@
+Template from: https://vuejs.org/guide/quick-start.html
+
 # hugo-github-profile
 
 This template should help get you started developing with Vue 3 in Vite.
